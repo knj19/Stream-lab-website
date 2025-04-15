@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Lab - Premium Streaming Services</title>
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c2e; /* Dark Purple */
+            color: white;
+            line-height: 1.6;
+        }
+        header {
+            background: #2d2d47; /* Darker Purple */
+            padding: 20px;
+            text-align: center;
+        }
+        header .logo img {
+            width: 150px;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        header nav ul li a {
+            color: #39e400; /* Green */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #39e400;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .pricing-plan {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 25%;
+        }
+        .pricing-plan h3 {
+            margin-bottom: 20px;
+            color: #39e400;
+        }
+        .pricing-plan ul {
+            list-style: none;
+        }
+        .pricing-plan ul li {
+            margin-bottom: 10px;
+        }
+        #top-up iframe {
+            border: none;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 640px;
+            height: 480px;
+        }
+        footer {
+            background: #2d2d47;
+            padding: 20px;
+            text-align: center;
+            color: #888;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://drive.google.com/uc?id=1_8jzYz3dOLEoI6nbbZJVFRaggS-f70W3" alt="Stream Lab Logo"> <!-- Your logo URL -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#top-up">Top-Up</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Stream Lab</h1>
+        <p>Your go-to source for premium streaming services. Access Netflix, HBO Max, Apple TV+, and more!</p>
+        <a href="#pricing" style="color: #39e400; font-weight: bold;">View Our Plans</a>
+    </section>
+
+    <section id="pricing">
+        <h2>Our Subscription Plans</h2>
+        <div class="pricing-table">
+            <div class="pricing-plan">
+                <h3>Netflix Full Account</h3>
+                <ul>
+                    <li>1 Month: $12</li>
+                    <li>3 Months: $29</li>
+                    <li>1 Year: $90</li>
+                </ul>
+            </div>
+            <div class="pricing-plan">
+                <h3>OSN+ Premium Account</h3>
+                <ul>
+                    <li>1 Month: $10</li>
+                    <li>3 Months: $28</li>
+                    <li>1 Year: $95</li>
+                </ul>
+            </div>
+            <div class="pricing-plan">
+                <h3>Crunchyroll Full Account</h3>
+                <ul>
+                    <li>1 Month: $8</li>
+                    <li>1 Year: $45</li>
+                </ul>
+            </div>
+            <div class="pricing-plan">
+                <h3>Apple TV+ Full Account</h3>
+                <ul>
+                    <li>1 Month: $5</li>
+                    <li>3 Months: $13</li>
+                    <li>1 Year: $25</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="top-up">
+        <h2>Request a Top-Up</h2>
+        <p>Fill out the form below to request a streaming top-up:</p>
+        <!-- Embed Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGFN3TAoOYcUXn4r4vbGgizVQp0Jtul_VKmD6U6rjaYW7mwg/viewform?usp=sf_link" width="640" height="480"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Reach out to us at: <strong>streamlab.lb@gmail.com</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Stream Lab - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
